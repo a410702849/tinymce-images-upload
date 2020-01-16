@@ -152,7 +152,7 @@ async function uploadpic(editor, imgList, options) {
                 } else {
                     if (typeof response.path != 'undefined') {
                         let tpl = '<img src="%s" />';
-                        editor.insertContent(tpl.replace('%s', path));
+                        editor.insertContent(tpl.replace('%s', response.path));
                         editor.focus();
                     } else {
                         alert('后端数据错误');
