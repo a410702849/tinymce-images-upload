@@ -82,7 +82,7 @@ var uploadpic = function () {
                                 } else {
                                     if (typeof response.path != 'undefined') {
                                         var tpl = '<img src="%s" />';
-                                        editor.insertContent(tpl.replace('%s', path));
+                                        editor.insertContent(tpl.replace('%s', response.path));
                                         editor.focus();
                                     } else {
                                         alert('后端数据错误');
