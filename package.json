@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/x-shadow-x/tinymce-imageupload.git"
+        "url": "git+https://github.com/a410702849/tinymce-imageupload.git"
     },
     "keywords": [
         "tinymce",
@@ -20,9 +20,9 @@
     "author": "junyanLiu",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/x-shadow-x/tinymce-imageupload/issues"
+        "url": "https://github.com/a410702849/tinymce-imageupload/issues"
     },
-    "homepage": "https://github.com/x-shadow-x/tinymce-imageupload#readme",
+    "homepage": "https://github.com/a410702849/tinymce-imageupload#readme",
     "devDependencies": {
         "axios": "^0.18.0",
         "babel-plugin-transform-runtime": "^6.23.0",
