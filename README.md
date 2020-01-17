@@ -2,15 +2,8 @@
 tinymce图片上传插件，暂不支持图片拖拽排序
 
 ## Source
-源码地址：https://github.com/a410702849/tinymce-imageupload
+源码地址：https://github.com/a410702849/tinymce-images-upload
 
-## Installing
-
-Using npm:
-
-```bash
-$ npm i tinymce-imageupload
-```
 ## Example
 
 Performing a `GET` request
