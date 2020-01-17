@@ -1,4 +1,6 @@
 ## Introduce
+修改自https://github.com/x-shadow-x/tinymce-imageupload.git
+改为适应只能一次上传一张图片的接口，可批量同步请求上传图片接口
 tinymce图片上传插件，暂不支持图片拖拽排序
 
 ## Source
@@ -38,7 +40,7 @@ tinymce.init({
     imageupload_converCb: (res) => { // 根据后端返回的数据，转换成符合插件要求的数据结构
         return {
             error: res.data.error,
-            pathList: res.data.data.pathList
+            path: res.data.data.url
         }
     },
     table_default_styles: {
